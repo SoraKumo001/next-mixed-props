@@ -1,6 +1,6 @@
+import { GetMixedProps, useMixedReload } from "@react-libraries/mixed-props";
 import Link from "next/link";
 import React from "react";
-import { GetMixedProps, useMixedReload } from "@react-libraries/mixed-props";
 import { Weather } from "../../types/weather";
 
 type Props = {

@@ -3,7 +3,9 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "export": "next export"
+    "export": "next export",
+    "lint": "next lint src",
+    "lint:fix": "next lint --fix"
   },
   "dependencies": {
     "@react-libraries/mixed-props": "^0.0.2",
@@ -20,7 +22,6 @@
     "eslint-config-next": "12.2.5",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "prettier": "^2.7.1",
     "typescript": "^4.8.2"
   },
   "name": "next-mixed-props",

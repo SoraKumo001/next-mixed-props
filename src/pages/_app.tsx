@@ -1,5 +1,5 @@
-import { AppProps } from "next/app";
 import { getInitialProps, initMixed } from "@react-libraries/mixed-props";
+import { AppProps } from "next/app";
 
 const App = (props: AppProps) => {
   const { Component } = props;
